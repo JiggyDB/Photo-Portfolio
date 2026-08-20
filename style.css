@@ -1,0 +1,40 @@
+body{
+    background-color: #ffe7d3; 
+    font-family: "Times new Roman", arial, sans-serif;
+    margin: 0;                 /* Remove default browser edge gaps */
+    padding: 40px 20px;        /* Add breathing room around the edges */
+    text-align: center;        /* Center all text horizontally */
+}
+
+h1{
+    color: rgb(255, 145, 0);
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+p{
+    color: #4a5568;          /* Slightly lighter gray for subtext */
+    font-size: 1.1rem;         /* Make body text slightly larger than default */
+    line-height: 1.6;          /* Add vertical spacing between text lines */
+    max-width: 600px;          /* Prevent text lines from stretching too wide */
+    margin: 0 auto;   
+}
+
+button{
+    color: #000000;
+    background-color: #ffa600;
+    margin-top: 30px;
+}
+
+#gearList {
+    margin-top: 20px;
+}
+
+#gearList div {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 500px;
+    text-align: left;
+}
